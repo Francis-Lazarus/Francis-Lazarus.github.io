@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+<title>Notes du cours de Géométrie Algorithmique</title>
+</head>
+<body BGCOLOR="#e0ffe2";
+ vlink="#990099" alink="#000099" link="#000099">
+
+<center>
+<h1>Notes du cours de Géométrie Algorithmique</h1>
+</center>
+<ul>
+      <li> 
+<a href="introduction.pdf">Introduction et probabilité discrète élémentaire</a>
+</li><li>
+<a href="graphesPlans.pdf">Quelques propriétés des graphes planaires</a>
+</li><li>
+<a href="triangulation.pdf">Triangulation d'un polygone et problème de la galerie d'art</a>
+</li><li>
+<a href="pcc.pdf">Plus court chemin dans un polygone</a>
+</li><li>
+<a href="dictionnaires.pdf">Dictionnaires randomisés</a> 
+</li><li>
+<a href="polytopes.pdf">Polytopes, treillis des faces, théorème de la borne supérieure</a>
+</li><li>
+<a href="voronoi.pdf">Enveloppes convexes, Diagrammes de Voronoi et de
+Delaunay</a>
+</li><li>
+<a href="arrangements.pdf">Arrangements de droites ou d'hyperplans</a>
+</li><li>
+<a href="localisation.pdf">Localisation dans une carte planaire</a>
+</li><li>
+<a href="recherche.pdf">Recherche orthogonale et simpliciale</a>
+</li><li>
+<a href="cuttings.pdf">Cuttings et partitions simpliciales</a> 
+</li><li>
+<a href="algoRandom.pdf">Algorithmes randomisés incrémentaux</a> 
+</li>
+</ul>
+<a href="notesGeoAlgo.pdf">L'ensemble des notes</a> en un seul
+fichier.
+<br>
+<br>
+<hr>
+<center>
+<h1>Notes du cours de Topologie Algorithmique</h1>
+</center>
+<ul>
+      <li> 
+<a href="homologie-graphes.pdf">Homologie des graphes et des surfaces triangulées</a>
+</li><li>
+<a href="opt-homologie.pdf">Calcul de bases minimales de l'homologie</a>
+</li><li>
+<a href="homologie-nD.pdf">Homologie des complexes simpliciaux</a>
+</li><li>
+<a href="persistance-homol.pdf">Persistance homologique</a>
+</li><li>
+<a href="approximation.pdf">Approximation et homologie</a>
+</li><li>
+<a href="homotopie-graphes.pdf">Groupe fondamental des graphes et des surfaces triangulées</a>
+</li><li>
+<a href="opt-homotopie.pdf">Optimisation et groupe fondamental</a>
+</li><li>
+<a href="indecidabilite.pdf">Limites de la topologie algorithmique</a>
+</li><li>
+<a href="morse.pdf">théorie de Morse discrète</a>
+</li><li>
+<a href="graphe-contours.pdf">Graphe des contours d'un polyèdre valué</a>
+</li>
+</ul>
+<a href="notesTopoAlgo.pdf">L'ensemble des notes</a> en un seul
+fichier.
+<br>
+<br>
+<hr>
+<center>
+<h1>Liens</h1></center>
+    <ul>
+      <li> <a
+ href="http://compgeom.cs.uiuc.edu/~jeffe/teaching/index.html"> Les  
+pages enseignement de Jeff Erickson</a> </li>
+      <li> <a
+href="http://www-sop.inria.fr/geometrica/courses/master-vim/index.html"> Les
+superbes transparents d'Olivier Devillers et ses notes de cours</a> </li>
+      <li> <a
+ href="http://people.math.jussieu.fr/~pocchiola/notesdecours/notesdecours2010.pdf"> Les 
+notes de cours de Michel Pocchiola</a> </li>
+<li> <a
+ href="http://www-ma2.upc.es/~geoc/indexEN.html"> La page enseignement
+de Vera Sacristán</a> </li>
+    </ul>
+<hr>
+<address></address>
+<br>
+<br>
+<!-- hhmts start -->Last modified: Mon Jan 17 17:19:17 CET 2011 <!-- hhmts end -->
+</body> </html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en"><html><head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.78 [fr] (X11; U; Linux 2.4.8-34.1mdk i686) [Netscape]">
+   <meta name="CREATED" content="20010314;14451600">
+   <meta name="CHANGED" content="20010731;17595000">
+<style>
+	<!--
+		TD P { color: #000000 }
+		P { color: #000000 }
+		A:visited { color: #551a8b }
+		A:link { color: #0000ee }
+	-->
+	</style></head>
+
+<body text="#000000" bgcolor="#ffe1ff" link="#0000ee" vlink="#551a8b" alink="#ff0000">
+
+<ol>
+<center><b><font color="#990000"><font size="+2">Optimal system of loops
+on an orientable surface</font></font></b>
+<br><b><font size="+1"><a href="http://www.di.ens.fr/users/colin/">Éric
+Colin de Verdière</a><font color="#990000"> and <a href="index.html">Francis
+Lazarus</a>.</font></font></b>
+<p><font color="#990000">Appeared in <a
+href="http://springerlink.metapress.com/app/home/contribution.asp?wasp=d08lnjxguq3xgyjvudu7&referrer=parent&backto=issue,8,9;journal,2,75;linkingpublicationresults,1:100356,1"><b><cite>Discrete
+&amp; Computational Geometry</cite></b></a>. 33(3): 507 - 534, March 2005.
+</font>
+<p>
+<font color="#990000">(also presented at 43rd IEEE Symposium on Foundations of Computer Science <i>(<a href="http://mitacs.math.ca/focs02/">FOCS
+2002</a>)</i>)</font>
+<br>&nbsp;
+</center>
+</p><p>
+<font color="#990000"> 
+<p>Download journal version (final except before copy editing)[<a
+href="Documents/cl-oslos-04.ps.gz">gzipped postscript</a> (509 Ko)] 
+[<a href="Documents/cl-oslos-04.pdf">pdf</a>
+(593 Ko)]
+<p>
+Download conference version (© 2002 IEEE) [<a href="Documents/opt-sys.ps.gz">postscript</a> (300 Ko)] 
+[<a href="Documents/opt-sys.pdf">pdf</a> (226 Ko)] 
+</font>
+<center>
+</p><p><b><font color="#990000"><font size="+1">Abstract</font></font></b></p>
+</center>
+<blockquote><div align="justify">
+Every compact orientable boundaryless surface <i>M</i> can
+  be cut along simple loops with a common point $v_0$, pairwise
+  disjoint except at <i>v</i><sub>0</sub>, so that the resulting surface is a
+  topological disk; such a set of loops is called a <i>system of
+    loops</i> for <i>M</i>.  The resulting disk may be viewed as a polygon
+  in which the sides are pairwise identified on the surface; it is
+  called a <i>polygonal schema</i>.  Assuming that <i>M</i> is a
+  combinatorial surface, and that each edge has a given length, we are
+  interested in a <i>shortest</i> (or <i>optimal</i>) system of loops
+  homotopic to a given one, drawn on the vertex-edge graph of <i>M</i>.
+  We prove that each loop of such an optimal system is a shortest loop
+  among all simple loops in its homotopy class. We give an algorithm
+  to build such a system, which has polynomial running time if the
+  lengths of the edges are uniform.  As a byproduct, we get an
+  algorithm with the same running time to compute a shortest simple
+  loop homotopic to a given simple loop.
+</div></blockquote>
+
+
+<hr width="100%">
+<p></p><center><b><font color="#990000"><font size="+1">Implementation</font></font></b></center>
+<p>The optimization algorithm is based on an elementary step which replaces
+each loop in turn by a shorter homotopic loop. The journal and
+conference versions of the paper slightly differs in the implementation of
+this elementary step. Specifically, the implementation in the journal
+version avoids the computation of the (partial) universal covering of a certain
+cylinder as described in the conference version. The figures below
+refer to the journal version of the elementary step.
+The loops
+are spread apart the edges they should follow in order to distinguish
+several loops when they walk along a same edge.</p></ol>
+
+<ol>&nbsp;
+<center><table cellspacing="0" cellpadding="0" cols="6" width="100%" nosave="">
+<tbody><tr align="center" valign="CENTER" nosave="">
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-0-unif.gif" height="314" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-4-unif.gif" height="314" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-8-unif.gif" height="314" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-12-unif.gif" height="314" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-16-unif.gif" height="314" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/sys-20-unif.gif" height="314" width="180"></td>
+</tr>
+
+<tr>
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-0-unif.gif" height="315" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-4-unif.gif" height="315" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-8-unif.gif" height="315" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-12-unif.gif" height="315" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-16-unif.gif" height="315" width="180"></td>
+
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-20-unif.gif" height="315" width="180"></td>
+</tr>
+
+<tr>
+<td align="center" valign="CENTER" nosave="">Initial system</td>
+
+<td align="center" valign="CENTER" nosave="">after 4 ES</td>
+
+<td align="center" valign="CENTER" nosave="">after 1 MS</td>
+
+<td align="center" valign="CENTER" nosave="">after 1 MS and 4 ES</td>
+
+<td align="center" valign="CENTER" nosave="">after 2 MS</td>
+
+<td align="center" valign="CENTER" nosave="">after 3 MS</td>
+</tr>
+</tbody></table></center>
+
+<div style="margin-bottom: 0cm;">&nbsp;
+<br>ES = Elementary Step, MS = Main Step. One Main Step is composed of
+8 Elementary Steps. An Elementery Step replaces a loop by a shortest homotopic
+loop that does not cross any of the loops in the current system.
+<br>&nbsp;
+<br>&nbsp;
+<center><table cellspacing="0" cellpadding="0" cols="2" width="50%" nosave="">
+<tbody><tr align="center" valign="CENTER" nosave="">
+<td nosave=""><img src="GIFs/sys-20-unif.gif" height="314" width="180"></td>
+
+<td><img src="GIFs/sys-0-opt.gif" height="314" width="180"></td>
+</tr>
+
+<tr align="center" nosave="">
+<td align="center" valign="CENTER" nosave=""><img src="GIFs/loops-20-unif.gif" height="315" width="180"></td>
+
+<td><img src="GIFs/loops-0-opt.gif" height="314" width="180"></td>
+</tr>
+
+<tr align="center" valign="CENTER" nosave="">
+<td nosave="">optimal system computed
+<br>on the vertex-edge graph&nbsp;</td>
+
+<td>geodesic system computed
+<br>on the polyhedral surface</td>
+</tr>
+</tbody></table></center>
+</div>
+</ol>
+
+<div style="margin-bottom: 0cm;">&nbsp;</div>
+
+<div style="margin-bottom: 0cm;">[<a href="MPEG/animgeod.mpg"> mpeg animation&nbsp;</a>
+(642 Ko)]: A continuous transformation between the initial system and the
+geodesic system.</div>
+
+<div style="margin-bottom: 0cm;">[<a href="MPEG/lastgeod.mpg"> mpeg animation&nbsp;</a>
+(658 Ko)]: The geodesic system.</div>
+
+<hr width="100%">
+<br>Last modification:&nbsp; <i>28 feb 2005</i>
+</body></html>

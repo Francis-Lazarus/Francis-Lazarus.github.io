@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ <title>Master 2 course - Algorithmic Topology and Groups</title>
+<style type="text/css"></style></head><body><div align="center"><b><font size="+3">
+Algorithmic Topology and Groups</font></b></div>
+<p>
+</p><div align="center"><b> Lecturers: 
+<a href="https://www-fourier.ujf-grenoble.fr/~dahmani/">François Dahmani</a> and <a href="https://pagesperso.g-scop.grenoble-inp.fr/~lazarusf/">Francis Lazarus</a> 
+</b><br>
+</div>
+<hr>
+<br><br>
+<p>
+<b>Where and when:</b> Room 14 at Institut Fourier, on Wednesday.
+<p>
+<b>Prerequisites:</b> Nothing strictly required. 
+</p>
+<p>
+  <b>Objective:</b> Describing objects by discrete structures has many
+advantages, but makes all the more clear the limits of our
+understanding. For instance, one can compute easily presentations of
+fundamental groups of simplicial complexes, but in general,
+determining whether this group is trivial is impossible
+(undecidable). This course proposes an algorithmic approach to treat,
+in favorable cases, some fundamental problems in topology, often
+interpreted in terms of problems in fundamental groups. These problems
+are the homotopy between curves, the existence of homeomorphisms
+between spaces, and the triviality of a knot. The case of surface
+groups will be important to us.
+
+<p>The first part will be dedicated to basics notions on algorithms and complexity and on combinatorial group theory. The viewpoint will remain elementary and will be motivated by topological and algorithmic problems on graphs and surfaces.
+</p>
+      <b>Tentative plan for this part:</b>
+<ol>
+  <li> What is an algorithm: Turing machines, halting problem, complexity...
+</li>
+<br>
+  <li> Algebraic topology for graphs and combinatorial surfaces.
+  </li>
+<br>
+  <li>What we cannot compute: how the undecidability of the Word problem impacts computational topology.
+  </li>
+</ol>
+<p>
+
+
+<p>
+<b>Course notes:</b>
+
+ <table>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="prelude.pdf">Prelude</a></td>
+<td></td><td><b><a href="TD1.pdf">Exercise sheet 1</a></b></td></tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="graphTopology.pdf">Topology of Graphs
+</a></td>
+<td></td><td><b><a href="TD2.pdf">Exercise sheet 2</a></b></td></tr>
+<tr><td></td>
+<td></td><td><b><a href="TD3.pdf">Exercise sheet 3</a></b></td></tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="surfaceTopology.pdf">Topology of Surfaces
+ </a></td>
+<td></td><td><b><a href="TD4.pdf">Exercise sheet 4</a></b></td></tr>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="homotopyTest.pdf">Testing Curve Homotopy on Surfaces
+ </a></td>
+<td></td><td><b><a href="TD5.pdf">Exercise sheet 5</a></b></td></tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="undecidabilityTopo.pdf">Undecidability in Topology
+ </a></td>
+  <td></td><td><b><a href="TD6.pdf">Exercise sheet 6</a></b></td></tr>
+</tr>
+</table>
+ <br>
+ <b>Suggested reading:</b>
+<ul>
+  <li>John Stillwell. <a href="http://books.google.com/books?id=265lbM42REMC"><cite>Classical Topology and Combinatorial Group Theory</cite></a>. Springer, 1995. 
+  </li>
+<li> J. Gross, T. Tucker. <cite>Topological Graph Theory</cite>. Dover Publications, Inc., Mineola, NY, 2001. xvi+361 pp. ISBN: 0-486-41741-7.
+</li>
+<li> B. Mohar, C. Thomassen. <a href=""><cite>Graphs on surfaces</cite></a>. Johns Hopkins Studies in the Mathematical Sciences.
+2001. xii+291 pp. ISBN: 0-8018-6689-8.
+</li>
+<li> N. Brady, T. Riley, H. Short<a href=""><cite>The geometry of the word problem for finitely generated groups</cite></a>. Advanced Courses in Mathematics. CRM Barcelona. Birkhäuser Verlag, Basel, 2007. x+206 pp.
+ISBN: 978-3-7643-7949-0
+</li>
+<li> <a href="https://pagesperso.g-scop.grenoble-inp.fr/~lazarusf/Enseignement/compuTopo.html"><cite>Computational topology course notes</cite></a>. 
+</li>
+
+</ul>
+
+
+<p>
+
+<b>Validation:</b> Midterm and final exam.
+
+<!-- 
+<p>
+
+<b>Oral presentation:</b> You have to select one project in the list below. We recommend that you choose a partner and work by pairs on a project. Each project should be chosen by at most one pair. Try to avoid conflict by discussing your choice with the whole class.
+
+The presentation should last <b>25</b> mn followed by questions and a short discussion. You may use your own laptop or bring your presentation on a usb key. In this latter case, we ask you to use a pdf file. Each member of a pair should speak approximately the same amount of time. The rough idea is to present the main ideas in the chosen article(s), give some details and say one proof that you find worth be presented. We do not require a written report for the project, but <b>we will ask for an electronic copy of your slides</b>.
+
+Some papers are only accessible via your institution. We nonetheless link each paper to a public version so that you get an idea of the content. When indicated, you should download the final version in the end. Please, send us an email if you have any problem to download a paper. 
+
+<ol>
+  <li><a href="https://arxiv.org/abs/math/0205057">The computational complexity of knot genus and spanning area</a>
+(Ian Agol, Joel Hass and William P. Thurston)
+
+  <li><a href="https://pdfs.semanticscholar.org/14a4/0638cbea6b70b6792d7ed6b7c117ecc854a4.pdf">Linkless and flat embeddings in 3 space and the unknot problem</a>
+(Ken-Ichi Kawarabayashi, Stephan Kreutzer and Bojan Mohar). <a href="http://link.springer.com/article/10.1007/s00454-012-9413-9">Final version</a>.
+
+<li><a href="https://arxiv.org/abs/1711.08436">Shellability is NP-complete</a>
+(Xavier Goaoc, Pavel Paták, Zuzana Patáková, Martin Tancer and Uli Wagner)
+
+<li><a href="https://arxiv.org/abs/0807.0336">Hardness of embedding simplicial complexes into R^d</a>
+(Jirí Matousek, Martin Tancer and Uli Wagner)
+
+
+</ol>
+Advanced topics: the following articles are significantly harder, pick them only if you are interested and/or you want to impress us.
+<ol start="16">
+<li><a href="https://arxiv.org/abs/1105.6257">Computing all maps into a sphere</a>
+(Martin Cadek, Marek Krcal, Jiri Matousek, Francis Sergeraert, Lukas Vokrinek, Uli Wagner)
+
+
+<li><a href="https://arxiv.org/abs/1402.0815">Embeddability in the 3-sphere is decidable</a>
+(Jiri Matousek, Eric Sedgwick, Martin Tancer and Uli Wagner)
+    </ol>
+ -->
+<hr>
+<br>
+</body></html>

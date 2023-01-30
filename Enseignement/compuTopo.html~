@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ <title>Master 2 course - Computational Topology</title>
+<style type="text/css"></style></head><body><div align="center"><b><font size="+3">
+Computational Topology</font></b></div>
+<p>
+</p><div align="center"><b> Lecturers: 
+<a href="http://www.gipsa-lab.fr/~francis.lazarus/">Francis Lazarus</a> and 
+<a href="http://www.gipsa-lab.fr/~arnaud.demesmay/">Arnaud de Mesmay</a></b><br>
+</div>
+<hr>
+<br><br>
+<p>
+<b>Where and when:</b> See <a href="https://pad.inria.fr/p/r.542fa856c4fe21df30b444eb43913405">timetables</a>.
+<p>
+<b>Prerequisites:</b> Nothing strictly required. Basics in graph theory and algorithms will help, as well as a certain taste for mathematics.
+</p>
+<p>
+<b>Objective:</b>
+Computational topology is primarily concerned with the development of efficient algorithms for solving topological problems. This course is an introduction to the main tools and concepts in the field. While topology is an old and mature mathematical field, the study of its effective
+aspects has only started to flourish in the last decades. We will start with graph theory using planar and surface-embedded graphs to introduce fundamental topological notions as we progress. We then increase the dimension progressively and finish with persistence theory, a blooming topological tool in the analysis of big data.
+</p>
+<p>
+<b>Tentative plan:</b>
+<ol>
+  <li>Planar graphs: Jordan theorem, Euler relation, forbidden minors, Tutte embedding.
+</li>
+<br>
+<li>Classification of surfaces and surface-embedded graphs, Euler characteristic, canonical systems of loops. Homotopy and homology, greedy generators. Homotopy test, intersection numbers.</li>
+ <br>
+<li>Elementary 3-dimensional topology: triangulations, knots, knot diagrams, Reidemeister moves. Normal surfaces and algorithm to test knot triviality.</li>
+<br>
+<li>Simplicial complexes and limits of computational topology in high dimensions: Undecidability of the word problem, and therefore undecidability of computations in the fundamental group of a 2-complex, and undecidability of 4-manifold homeomorphism or 5-sphere recognition.</li>
+<br>
+<li>Persistent homology and applications to topological data analysis.</li>
+</ol>
+<p>
+<b>Course notes:</b>
+
+ <table>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo1.pdf">Introductory course</a></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+    <a href="compuTopo2.pdf">Planar graphs</a>, </td>
+    <td><b><a href="Exercises1.pdf">Exercise sheet number 1</a></b>, <b><a href="Exercises2.pdf">Exercise sheet number 2</a></b></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+    <a href="compuTopo3.pdf">Surfaces</a>, </td>
+    <td><b><a href="Exercises3.pdf">Exercise sheet number 3</a></b>, <b><a href="Exercises4.pdf">Exercise sheet number 4</a></b> <font color="#ff0000"><b>is due October 19 and will be rated</font></b></td>
+</tr>
+ <tr><td></td>
+    <td>
+    <b><a href="klein.pdf">(Partial) solution for sheet number 3</a></b>,
+    <b><a href="Exercises5.pdf">Exercise sheet number 5</a></b></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+ <a href="compuTopo4.pdf">Homotopy test</a>,</td>
+    <td><b><a href="Exercises6.pdf">Exercise sheet number 6</a></b></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo5.pdf">Minimum weight Bases</a></td>
+<td><b><a href="Exercises7.pdf">Exercise sheet number 7</a></b></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo6.pdf">Knots and 3-dimensional computational
+topology</a></td>
+<td></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo7.pdf">Undecidability in topology</a></td>
+<td></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo8.pdf">Homology computation</a></td>
+<td></td>
+</tr>
+<tr><td><font size="+2">&#160;&#160;&#149;&#160;</font>
+<a href="compuTopo9.pdf">Persistent homology</a></td>
+<td></td>
+</tr>
+</table>
+<br>
+
+<b>Suggested reading:</b>
+<ul>
+  <li>John Stillwell. <a href="http://books.google.com/books?id=265lbM42REMC"><cite>Classical Topology and Combinatorial Group Theory</cite></a>. Springer, 1995. 
+</li>
+<li> Jonathan L. Gross and Thomas W. Tucker.  <a href="http://books.google.com/books?id=mrv9OJVdy_cC"><cite>Topological Graph Theory</cite></a>.  Dover Publications, 2001.
+   </li>
+<li> Bojan Mohar and Carsten Thomassen. <a href="http://www.fmf.uni-lj.si/~mohar/Book.html"><cite>Graphs on Surfaces</cite></a>. Johns Hopkins University Press, 2001. 
+   <li>Joel Hass, Jeffrey C. Lagarias, Nicholas Pippenger. <a href="http://arxiv.org/abs/math/9807016"><cite>The Computational Complexity of Knot and Link Problems</cite></a>. Journal of the ACM (JACM), 46(2), 185-211.
+   </li>
+<li>Herbert Edelsbrunner and John Harer. <a href="http://pub.ist.ac.at/~edels/Papers/2008-B-02-PersistentHomology.pdf"><cite>Persistent homology-a survey</cite></a>. Contemporary mathematics, 2008.
+</li>
+    </ul>
+<br>There are also good lecture notes available for a few other courses on Computational Topology. In particular, we recommend the ones of <a href="http://www.di.ens.fr/~colin/cours/all-algo-embedded-graphs.pdf">Éric Colin de Verdière</a>, <a href="http://jeffe.cs.illinois.edu/teaching/comptop/schedule.html">Jeff Erickson</a> and <a href="http://www.cs.duke.edu/courses/fall06/cps296.1/">Herbert Edelsbrunner</a>. They do not necessarily cover the same topics, but might provide interesting perspectives on different facets of the subject.</br>
+
+<p>
+
+<b>Validation:</b> Homework, and work (written report and oral presentation) on a research article. The rules are: three homeworks will be rated and we will consider the average HS of the two best scores. The final score will be obtained by the formula (HS+OS)/2, where OS is the score for the oral presentation.
+
+
+</body></html>
